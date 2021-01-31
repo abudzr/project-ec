@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #050A27;
+    color:white;
+    font-family: Montserrat;
+}
+
+.box-shadow{
+    box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+#home{
+    height: 100vh;
+    padding-top: 200px;
+}
+
+#profile{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contact{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* text */
+.home-title{
+    font-size: 55px;
+    
+}
+.home-subtitle{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.font-primary{
+    color: orange;
+    font-family: MV boli;
+}
+/* img */
+.home-img{
+    width: 550px;
+    margin-top: -100px;
+}
+
+.btn-round{
+    border-radius: 50%;
+}
+
+.profile-img{
+    width:50%;
+    margin-left:80px;
+    
+}
+
+/* jumbotron */
+.jumbotron p{
+    color:black;
+}
+
+/* list-sosmed */
+ul.sosmed{
+    margin-left: -40px;
+}
+
+ul.sosmed li{
+    display: inline;
+    margin-left: 5px;
+}
+
+/* Responsive Ui */
+@media (max-width :991px){
+    #home{
+        height: 100vh;
+        padding-top: 150px;
+    }
+    .home-img{
+        display: none;
+    }
+    .home-title{
+        font-size: 40px;
+        
+    }
+    .home-subtitle{
+        font-size: 15px;
+        font-weight: lighter;
+        padding-top: 30px;
+    }
+    .profile-img{
+        width:30%;
+        margin-left:150px;
+        
+    }
+}
